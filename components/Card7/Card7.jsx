@@ -289,7 +289,6 @@ const ButtonContained = styled(Button)({
 
 function Card7(props) {
   const { data, fns } = useCard7(props)
-  console.log('🚀 ~ file: Card7.jsx:292 ~ Card7 ~ data:', data)
 
   return (
     <TypeQuest className={props.className}>
